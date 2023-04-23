@@ -1,0 +1,34 @@
+{
+    "name": "chatgpt/doc",
+    "description": "Helpful documentation for OpenAI and ChatGPT",
+    "type": "laravel-package",
+    "license": "MIT",
+    "keywords": [
+        "ChatGPT",
+        "OpenAI",
+        "creative-syntax",
+        "onexcrm"
+    ],
+    "authors": [
+        {
+            "name": "Arindam Roy",
+            "email": "arindam.roy.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChatGPT\\Doc\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ChatGPT\\Doc\\ChatGPTDoc"
+            ]
+        }
+    }
+}
