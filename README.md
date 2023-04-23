@@ -1,6 +1,6 @@
-# CheckoutChamp CRM API Documentation
+# Open AI and ChatGPT Documentation
 
-### A laravel package for CheckoutChamp CRM apis documentation.
+### Helpful documentation for OpenAI and ChatGPT.
 
 ## Installation
 
@@ -9,7 +9,7 @@
 ### STEP 1: Run the composer command:
 
 ```shell
-composer require checkoutchamp/api-doc
+composer require chatgpt/doc
 ```
 
 ### STEP 2: Laravel without auto-discovery:
@@ -17,7 +17,7 @@ composer require checkoutchamp/api-doc
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
 ```php
-CheckoutChamp\ApiDoc\CheckoutChampApiDoc::class,
+ChatGPT\Doc\ChatGPTDoc::class,
 ```
 
 ## How to use?: It's Very Easy
@@ -29,13 +29,8 @@ CheckoutChamp\ApiDoc\CheckoutChampApiDoc::class,
 </dl>
 
 ```php
-Ex: http://your-website/checkoutchamp-api-doc
+Ex: http://your-website/chatgpt-doc
 
-Ex: http://localhost:8000/checkoutchamp-api-doc
+Ex: http://localhost:8000/chatgpt-doc
 ```
 
-
-<a href="https://konnektive.atlassian.net/wiki/spaces/CC/pages/1859551570/Checkout+Champ">https://konnektive.atlassian.net/wiki/spaces/CC/pages/1859551570/Checkout+Champ</a>
-
-
-<a href="https://apidocs.checkoutchamp.com/">https://apidocs.checkoutchamp.com/</a>
